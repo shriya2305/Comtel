@@ -8,7 +8,7 @@ export default function Home() {
         <div className="hero-overlay">
           <h1>
             AUTHORISED CHANNEL PARTNER <br />
-            <span>OF OKO-NDT GROUP</span>
+            <span> OKO-NDT GROUP</span>
           </h1>
           <p>Experts in NDT System Integration & Automation Solutions</p>
 
