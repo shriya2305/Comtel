@@ -1,0 +1,158 @@
+/* HERO */
+.contact-hero {
+  height: 220px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-hero h1 {
+  color: white;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+/* MAIN CONTAINER */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 60px 8%;
+  background: #ffffff;
+  color: #000;
+}
+
+/* LEFT CARD */
+.contact-info {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  border-top: 4px solid #d32f2f;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h2 {
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* MAP */
+.map-wrapper iframe {
+  width: 100%;
+  height: 250px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+/* RIGHT CARD */
+.contact-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  border-top: 4px solid #d32f2f;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form h2 {
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #d32f2f;
+}
+
+.contact-form button {
+  background: #d32f2f;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #b71c1c;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ADDRESS LIST */
+.address-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #fafafa;
+}
+
+.address-card h4 {
+  margin-bottom: 5px;
+  color: #d32f2f;
+}
+
+.address-card:hover {
+  background: #fbe9e7;
+  transform: translateY(-2px);
+}
+
+.address-card.active {
+  border-color: #d32f2f;
+  background: #fdecea;
+}
+
+.timing {
+  margin-top: 20px;
+}
+
+/* MAP CARD */
+.map-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  border-top: 4px solid #d32f2f;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.map-card iframe {
+  width: 100%;
+  height: 320px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 15px;
+}

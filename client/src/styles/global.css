@@ -1,0 +1,23 @@
+:root {
+  --red: #d32f2f;
+  --black: #0f0f0f;
+  --white: #ffffff;
+  --gray: #cccccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
