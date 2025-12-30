@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
+
 :root {
   --red: #d32f2f;
   --black: #0f0f0f;
@@ -9,12 +11,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* Paragraphs & normal text */
+body,
+p,
+span,
+li,
+a {
   font-family: "Segoe UI", sans-serif;
 }
 
 body {
   background-color: var(--black);
   color: var(--black);
+}
+
+/* Main headings */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", cursive;
+}
+
+/* Optional: make headings stronger */
+h1 {
+  letter-spacing: 1px;
 }
 
 a {

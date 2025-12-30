@@ -7,12 +7,10 @@ export default function Home() {
       <section className="hero">
         <div className="hero-overlay">
           <h1>
-            AUTHORISED CHANNEL PARTNER <br />
-            <span> OKO-NDT GROUP</span>
+            AUTHORISED CHANNEL PARTNER OF <br />
+            OKO-NDT GROUP
           </h1>
           <p>Experts in NDT System Integration & Automation Solutions</p>
-
-          
         </div>
       </section>
 
@@ -28,6 +26,11 @@ export default function Home() {
             solutions to customers based on multi-equipment integration and
             industrial automation. We specialize in quality products and
             industrial equipment training with decades of experience.
+            Non-Destructive Testing (NDT) – from stable of World’s highly
+            reputed conglomerate OKO-NDT. OKO-NDT GROUP™ has been offering
+            development and building of the portable devices and automated
+            nondestructive testing systems. Today, they have produced a range of
+            around 4000 kinds of transducers and over 40 devices
           </p>
         </div>
 
@@ -105,6 +108,7 @@ export default function Home() {
             src="https://images.yourstory.com/cs/images/companies/15532284738111-1645706928762.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=1920&q=75"
             alt="Client"
           />
+         
         </div>
       </section>
     </>

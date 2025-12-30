@@ -1,13 +1,12 @@
 /* HERO */
 .hero {
   height: 80vh;
-  position: relative;  /* containment */
+  position: relative; /* containment */
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url("https://images.unsplash.com/photo-1581092160607-ee22621dd758");
+  background: linear-gradient(rgba(210, 23, 23, 0.75), rgba(0, 0, 0, 0.75));
   background-size: cover;
   background-position: center;
 }
@@ -24,7 +23,7 @@
 }
 
 .hero h1 span {
-  color: #d32f2f;
+  color: #ff0000;
 }
 
 .hero p {
