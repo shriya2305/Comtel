@@ -1,3 +1,3 @@
 Comtel - Internship Project
 
-A website created using html css react
+A website created using html, css and react.
