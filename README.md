@@ -152,7 +152,7 @@ npm run build
 
 ## 👩‍💻 Author
 
-**Shriya Avhad**
+**Shriya Avhad & Shreya Fulwane**
 Built as a professional full-stack project using the MERN stack.
 
 ---
