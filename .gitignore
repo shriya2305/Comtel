@@ -1,9 +1,8 @@
-# root
-node_modules/
+node_modules
 .env
+backend/node_modules
+client/node_modules
 
-# client
-client/node_modules/
 client/build/
 
 # logs
