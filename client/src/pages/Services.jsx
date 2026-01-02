@@ -95,13 +95,13 @@ const customizedCards = [
     id: 3,
     title: "5-TON MILTER",
     image: require("../assets/custom-3.png"),
-    description: "Inline inspection systems integrated with production.",
+    description: "Consummate Material Testing & Engineering. This system is used for tilting jobs with a total weight of 5 tons. Stationary type tilter with hydraulic tilting for smooth, vibration-free application.Type of Object: Cylindrical, Object Diameter: 1600mm Max / 1000mm Mi, Object Length: 6000mm Max,Ambient Temperature: 45°C"
   },
   {
     id: 4,
     title: "CHLORINE CYLINDER X-RAY SYSTEM",
     image: require("../assets/custom-4.png"),
-    description: "Expert consultancy and system integration services.",
+    description: "Consummate Material Testing & Engineering. This system is used for the non-destructive testing (NDT) of chlorine cylinders. Stationary inspection system with high-precision imaging for detecting weld defects and wall thinning.Type of Object: Cylindrical (Chlorine Gas Cylinders), Object Diameter: 1600mm Max / 1000mm Min",
   },
 ];
 
